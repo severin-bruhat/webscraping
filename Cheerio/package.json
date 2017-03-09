@@ -1,0 +1,32 @@
+{
+  "name": "Cheerio",
+  "version": "0.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "cheerio": "~0.22.0",
+    "request": "~2.81.0",
+    "jsonframe-cheerio": "~2.0.52"
+  },
+  "devDependencies": {
+    "babel": "~6.23.0",
+    "babel-cli": "~6.23.0"
+  },
+  "scripts": {
+    "start": "babel-node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/severin-bruhat/webscraping.git"
+  },
+  "keywords": [
+    "webscraping"
+  ],
+  "author": "severin",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/severin-bruhat/webscraping/issues"
+  },
+  "homepage": "https://github.com/severin-bruhat/webscraping"
+}
